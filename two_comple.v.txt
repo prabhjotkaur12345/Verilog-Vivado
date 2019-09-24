@@ -1,0 +1,9 @@
+`timescale 1ns / 1ps
+
+module two_comple(
+    input [5:0] x,//input
+    output [5:0] z //output
+    );
+    
+     assign z = ~x + 6'b000001;//for the two's complemnt
+endmodule
